@@ -8,7 +8,7 @@
 
 <head>
     <!--[if is animated]><meta http-equiv="refresh" content="0"><![endif]-->
-    <link rel="stylesheet" href="./Nyro-Dateien/normalize.css">
+    <link rel="stylesheet" href="/Nyro-Dateien/normalize.css">
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
@@ -20,18 +20,13 @@
 			function draw() { var canvas = document.getElementById('tutorial');
 			  if (canvas.getContext) { var ctx = canvas.getContext('2d');}}
 		</script><![endif]-->
-    <style type="text/css">
-        canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-    </style>
 </head>
 
 <body>
-    <canvas id=c></canvas>
-    <!--ALGORITHM:	structure: - gen( x,y,z ):
+    <script src="/Nyro-Dateien/angular.js">
+        < canvas id = "c" / >
+
+            /*<!-- ALGORITHM:	structure: - gen( x,y,z ):
 			- create node at x,y,z // blue 
 			- append some children to list:
 				- within a certain distance to parent
@@ -51,7 +46,8 @@
 			- else
 				- pick( random node from node children )
 		- pick( original node)
-		-->
+		-->*/
+    </script>
 </body>
 
 </html>
