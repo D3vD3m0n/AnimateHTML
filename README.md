@@ -13,54 +13,6 @@ This list contains the most useful tools and data for creating web animations.
 ##### Großes hilfreiches Projekt mit vielen Entwicklern
  <img src="https://avatars3.githubusercontent.com/u/310036?s=200&v=4" alt="" href="https://github.com/codrops?language=html" weith="42" heigth="42">
 
-
-
-<!DOCTYPE html>
-<html >
-<style>
-.cities {
-  background-color: black;
-  color: white;
-  margin: 20px;
-  padding: 20px;
-}
-.td { border: 1px inset gray; color: white; background-color: black; }
-.#information { visibility: hidden; }
-.#summe { visibility: collapse; }
-</style>
-<div visibility: hidden>
-<p align="center" visibility: hidden>
-  <a align="center" href="https://awesome-web-animation.netlify.com">
-    <img src="https://api.netlify.com/api/v1/badges/692bdbac-34dc-4783-8a4e-e4a586fee7b6/deploy-status" alt="Netlify deploy status">
-  </a>
-</p>
-<a>
-<div class="cities">
-  <h2 >London</h2>
-  <p>London is the capital of England.</p>
-</div>
-
-<h2>Tabelle mit unsichtbarer Zeile</h2>
-<table>
-  <tbody>
-    <tr><td class="td">Spalte 1</td><td class="td" rowspan="2">Spalte 2</td><td class="td">Spalte 3</td></tr>
-    <tr class="#information"><td>Spalte 1 inf</td><td class="td">Spalte 2</td><td class="td" rowspan="2">Spalte 3</td></tr>
-    <tr><td class="td">Spalte 1</td><td class="td">Spalte 2</td></tr>
-  </tbody>
-</table>
-
-<h2>Tabelle mit ausgeblendeter Zeile</h2>
-<table>
-  <tbody>
-    <tr><td class="td">Spalte 1</td><td class="td" rowspan="2">Spalte 2</td class="td"><td class="td">Spalte 3</td></tr>
-    <tr class="#summe"><tdclass="td" >Spalte 1</td><td class="td">Spalte 2</td><td class="td" rowspan="2">Spalte 3</td></tr>
-    <tr class="#summe"><td class="td">Spalte 1</td><td class="td">Spalte 2</td></tr>
-  </tbody>
-</table>
-</a>
-</div>
-</html>
-
 |          Animate SVG        | Path Animations |    
 |--------------|-----------------|
 | http://lmgonzalves.github.io/segment/ | http://lazylinepainter.info/ |
