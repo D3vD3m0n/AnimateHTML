@@ -279,16 +279,16 @@
     /* SOCIAL MEDIA 
   =============================== */
     
-    .media {}
-    
-    ul {
+    .media {
+    }
+    .ul {
         position: absolute;
         bottom: 250px;
         left: -140px;
         transform: rotate(-90deg);
     }
     
-    li {
+    .li {
         font-size: 10px;
         font-weight: 600;
         letter-spacing: 2px;
@@ -299,14 +299,14 @@
     /* TEXT 
   =============================== */
     
-    text {
+    .text {
         position: absolute;
         top: 200px;
         left: 100px;
         transform: rotate(-90deg);
     }
     
-    h1 {
+    .h1 {
         font-size: 120px;
         text-transform: uppercase;
         font-weight: 900;
@@ -317,11 +317,11 @@
         width: 600px;
     }
     
-    hide--text {
+    .hide--text {
         position: absolute;
     }
     
-    h2 {
+    .h2 {
         content: "duality";
         position: absolute;
         top: 40px;
@@ -332,21 +332,21 @@
         opacity: 1;
     }
     
-    h3 {
+    .h3 {
         font-size: 40px;
         text-transform: uppercase;
         font-weight: 600;
         line-height: 1;
         position: relative;
         overflow: hidden;
-        height: 80px;
+        height: 80px;    
     }
-    
-    hide--text {
+
+    .hide--text {
         position: absolute;
     }
     
-    p {
+    .p {
         width: 400px;
         font-size: 12px;
         margin-top: 30px;
@@ -356,26 +356,26 @@
         height: 100px;
     }
     
-    hide--text {
+    .hide--text {
         position: absolute;
     }
     /* SPONSOR 
   =============================== */
     
-    sponsor {
+    .sponsor {
         position: absolute;
         right: 100px;
         bottom: 100px;
         text-align: center;
     }
     
-    img {
+    .img {
         width: 200px;
         opacity: 1;
         transform: rotate(-90deg);
     }
     
-    p {
+    .p {
         margin-top: 20px;
         font-size: 12px;
         text-transform: uppercase;
@@ -404,7 +404,7 @@
         z-index: 99;
         overflow: hidden;
     }
-    
+
     .first {
         background: #fcc419;
     }
@@ -418,3 +418,4 @@
         background: #fcc419;
         left: 66.66%;
     }
+  
