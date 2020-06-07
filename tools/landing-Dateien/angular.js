@@ -1,9 +1,3 @@
-/*
- AngularJS v1.5.5
- (c) 2010-2016 Google, Inc. http://angularjs.org
- License: MIT
-*/
-
 /* NAVBAR */
 gsap.from(".navbar div", {
     duration: 1.5,
@@ -102,4 +96,8 @@ gsap.to(".third", {
     ease: "expo.inOut",
 });
 
+//# document.addEventListener("DOMContentLoaded", function() {
+//# this function runs when the DOM is ready, i.e. when the document has been parsed//#
+//#    document.getElementById("user-greeting").textContent = "Welcome back, Bart";
+//#});
 //# sourceMappingURL=angular.min.js.map
