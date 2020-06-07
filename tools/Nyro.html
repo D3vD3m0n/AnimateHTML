@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="de-DE"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="de-DE"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="de-DE"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="de-DE"><!--<![endif]-->
+	<head>
+		<!--[if is animated]><meta http-equiv="refresh" content="0"><![endif]-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+        <!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+		<!--[if is animated]><script type="text/javascript">
+			function draw() { var canvas = document.getElementById('tutorial');
+			  if (canvas.getContext) { var ctx = canvas.getContext('2d');}}
+		</script><![endif]-->
+		<style type="text/css">canvas {  position: absolute; top: 0; left: 0; }</style>
+	</head>
+	<body>
+		<canvas id=c></canvas>
+		<!--ALGORITHM:	structure: - gen( x,y,z ):
+			- create node at x,y,z // blue 
+			- append some children to list:
+				- within a certain distance to parent
+				- outside a certain distance from any node
+				- within a global distance
+			- if no children
+				- don't append any
+				- set as end node // green-ish
+		- gen( 0,0,0 ) // red
+		- while list has items
+			- gen( position of first item )
+			- remove first item
+		impulse behaviour:
+		- pick( node ):
+			- if node is end node
+				- pick( original node )
+			- else
+				- pick( random node from node children )
+		- pick( original node)
+		-->
+	</body>
+</html>
