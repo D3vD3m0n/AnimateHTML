@@ -1,6 +1,4 @@
- 
-
-# Awesome Web Animation
+# HTML5 Animation Repository
 
 <a href="">
   <img src="https://miro.medium.com/max/3118/1*e_3kXON1DGMqgZ1FE4kClQ.png">
